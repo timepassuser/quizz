@@ -10,7 +10,7 @@ async function getSampleQuizzes(errorElement) {
             return quizzesObject;
         }
     } catch {
-        errorElement.innerText = "Error fetching resource, check network connection";
+	    console.log("Error fetching resource");
         return 0;
     }
 }
