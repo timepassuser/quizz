@@ -1,5 +1,5 @@
 async function getSampleQuizzes(errorElement) {
-    const sampleQuizUrl = "/samplequizzes.json"
+    const sampleQuizUrl = window.location.href + "/samplequizzes.json";
     try {
         let response = await fetch(sampleQuizUrl);
         if (!response.ok) {
@@ -10,7 +10,7 @@ async function getSampleQuizzes(errorElement) {
             return quizzesObject;
         }
     } catch {
-	    console.log("Error fetching resource");
+        console.log("Error fetching resource");
         return 0;
     }
 }
