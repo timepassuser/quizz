@@ -1,0 +1,207 @@
+{
+    "quizzes": [{
+            "image": "",
+            "name": "Sequence and Series",
+            "description": "Easy quiz on sequences and series",
+            "noOfQuestions": 5,
+            "defaultCorrectMarking": 1,
+            "defaultIncorrectMarking": 0,
+            "questions": [{
+                    "question": "What is the general formula for the sequence -1, 3, -5, 7, -9, ....?",
+                    "options": ["(-1)<sup>n+1</sup>(2n-1)", "n<sup>2</sup>", "(-1)<sup>n+1</sup>(n<sup>2</sup>)", "(-1)<sup>n+1</sup>(2n+1)"],
+                    "correct": 0
+                },
+                {
+                    "question": "What is the sum of the first 10 terms of the arithmetic sequence with the first term 2 and common difference 3?",
+                    "options": ["65", "185", "170", "155"],
+                    "correct": 3
+                },
+                {
+                    "question": "In a geometric sequence, if the first term is 3 and the common ratio is 2, what is the 5th term?",
+                    "options": ["48", "96", "24", "192"],
+                    "correct": 0
+                },
+                {
+                    "question": "What is the formula for the sum of the first n terms of an arithmetic sequence?",
+                    "options": ["n/2(a + l)", "n(a + d)", "a + nd", "n/2(a + d)"],
+                    "correct": 0
+                },
+                {
+                    "question": "What is the value of the infinite geometric series 4 + 2 + 1 + 0.5 + ...?",
+                    "options": ["8", "9", "6", "10"],
+                    "correct": 0
+                }
+            ]
+        },
+        {
+            "image": "",
+            "name": "Basic Boolean Algebra",
+            "description": "Test your knowledge on basic Boolean algebra concepts",
+            "noOfQuestions": 5,
+            "defaultCorrectMarking": 1,
+            "defaultIncorrectMarking": 0,
+            "questions": [{
+                    "question": "What is the result of A AND 0?",
+                    "options": ["0", "1", "A", "Not A"],
+                    "correct": 0
+                },
+                {
+                    "question": "Which Boolean identity is represented by A + 0 = A?",
+                    "options": ["Identity Law", "Distributive Law", "Complement Law", "Associative Law"],
+                    "correct": 0
+                },
+                {
+                    "question": "What is the complement of A * B?",
+                    "options": ["A' + B'", "A + B", "A' * B'", "Not defined"],
+                    "correct": 0
+                },
+                {
+                    "question": "What does the XOR operation output when both inputs are the same?",
+                    "options": ["1", "0", "A", "Not defined"],
+                    "correct": 1
+                },
+                {
+                    "question": "What is the output of A + A'?",
+                    "options": ["1", "0", "A", "A'"],
+                    "correct": 0
+                }
+            ]
+        },
+        {
+            "image": "",
+            "name": "Periodic Table",
+            "description": "Challenge your knowledge of the periodic table!",
+            "noOfQuestions": 5,
+            "defaultCorrectMarking": 1,
+            "defaultIncorrectMarking": 0,
+            "questions": [{
+                    "question": "What is the atomic number of Helium?",
+                    "options": ["1", "2", "3", "4"],
+                    "correct": 1
+                },
+                {
+                    "question": "Which element has the symbol 'Fe'?",
+                    "options": ["Fluorine", "Iron", "Fermium", "Francium"],
+                    "correct": 1
+                },
+                {
+                    "question": "What is the lightest element on the periodic table?",
+                    "options": ["Hydrogen", "Helium", "Lithium", "Oxygen"],
+                    "correct": 0
+                },
+                {
+                    "question": "What is the group number of the Noble Gases?",
+                    "options": ["18", "1", "16", "8"],
+                    "correct": 0
+                },
+                {
+                    "question": "Which element is known as the 'King of Chemicals'?",
+                    "options": ["Oxygen", "Sulfur", "Nitrogen", "Hydrogen"],
+                    "correct": 1
+                }
+            ]
+        },
+        {
+            "image": "",
+            "name": "Networking Protocols",
+            "description": "Learn about networking protocols with this quiz",
+            "noOfQuestions": 5,
+            "defaultCorrectMarking": 1,
+            "defaultIncorrectMarking": 0,
+            "questions": [{
+                    "question": "What does HTTP stand for?",
+                    "options": ["Hyper Text Transfer Protocol", "High Transfer Text Protocol", "Hyperlink Transfer Protocol", "Hyper Text Transaction Protocol"],
+                    "correct": 0
+                },
+                {
+                    "question": "Which protocol is used to send email?",
+                    "options": ["SMTP", "FTP", "HTTP", "IP"],
+                    "correct": 0
+                },
+                {
+                    "question": "What port does HTTPS typically use?",
+                    "options": ["443", "80", "25", "21"],
+                    "correct": 0
+                },
+                {
+                    "question": "Which protocol is used for secure file transfer?",
+                    "options": ["SFTP", "FTP", "HTTP", "SMTP"],
+                    "correct": 0
+                },
+                {
+                    "question": "What is the primary purpose of the DNS protocol?",
+                    "options": ["Translating domain names to IP addresses", "Routing packets between networks", "Establishing secure connections", "Delivering email"],
+                    "correct": 0
+                }
+            ]
+        },
+        {
+            "image": "",
+            "name": "Dragon Ball Z",
+            "description": "Test your knowledge of the Dragon Ball Z universe!",
+            "noOfQuestions": 5,
+            "defaultCorrectMarking": 1,
+            "defaultIncorrectMarking": 0,
+            "questions": [{
+                    "question": "What is Goku's Saiyan birth name?",
+                    "options": ["Kakarot", "Raditz", "Vegeta", "Bardock"],
+                    "correct": 0
+                },
+                {
+                    "question": "Who is Gohan's mentor during the fight against the Saiyans?",
+                    "options": ["Piccolo", "Krillin", "Yamcha", "Master Roshi"],
+                    "correct": 0
+                },
+                {
+                    "question": "What is the highest Super Saiyan transformation achieved by Goku in Dragon Ball Z?",
+                    "options": ["Super Saiyan 2", "Super Saiyan 3", "Ultra Instinct", "Super Saiyan God"],
+                    "correct": 1
+                },
+                {
+                    "question": "What are the names of the fusion form of Goku and Vegeta using the Potara earrings?",
+                    "options": ["Vegito", "Gogeta", "Vegetto", "Goketa"],
+                    "correct": 0
+                },
+                {
+                    "question": "What is the name of the planet where King Kai lives?",
+                    "options": ["Planet Namek", "Earth", "Planet Vegeta", "King Kai's Planet"],
+                    "correct": 3
+                }
+            ]
+        },
+        {
+            "image": "",
+            "name": "Physics",
+            "description": "Challenge yourself with fundamental physics concepts.",
+            "noOfQuestions": 5,
+            "defaultCorrectMarking": 1,
+            "defaultIncorrectMarking": 0,
+            "questions": [{
+                    "question": "What is Newton's First Law of Motion also known as?",
+                    "options": ["Law of Acceleration", "Law of Gravity", "Law of Inertia", "Law of Force"],
+                    "correct": 2
+                },
+                {
+                    "question": "What is the SI unit of force?",
+                    "options": ["Joule", "Newton", "Pascal", "Watt"],
+                    "correct": 1
+                },
+                {
+                    "question": "Which phenomenon explains why light bends when passing through a glass prism?",
+                    "options": ["Diffraction", "Reflection", "Refraction", "Interference"],
+                    "correct": 2
+                },
+                {
+                    "question": "What is the speed of light in a vacuum?",
+                    "options": ["300,000 km/s", "150,000 km/s", "3,000,000 km/s", "30,000 km/s"],
+                    "correct": 0
+                },
+                {
+                    "question": "Who proposed the theory of general relativity?",
+                    "options": ["Isaac Newton", "Albert Einstein", "Nikola Tesla", "Galileo Galilei"],
+                    "correct": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1092, initial-scale=1.0">
+    <title>quizz.</title>
+    <script src="quizFetch.js"></script>
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="logoContainer">
+                <a href="/">
+                    <img id="logo" src="logo_blackBackground.png" alt="quizz." srcset="">
+                </a>
+            </div>
+            <div id="navbarLinks">
+                <a href="/">Home</a>
+                <a href="">About&NonBreakingSpace;Us</a>
+            </div>
+        </nav>
+        <div id="Intro" class="center-text">
+            <div>
+                <h1 class="underline inline">The</h1>
+                <h1 class="inline">website for quizzes.</h1>
+            </div>
+            <div id="animatedIntro">
+                <span class="underline inline zeromargin">quizz</span><span class="red inline zeromargin">.</span>
+                <span>is for</span>
+                <span href="" class="typewrite" data-period="2000" data-type='[ "Students.", "Educators.", "Learners.", "Everyone." ]'>
+                    <span class="wrap"></span>
+                </span>
+            </div>
+        </div>
+    </header>
+    <button class="center-text" id="getstarted"><a href="#main">Get Started</a></button>
+    <!-- <a href=""><button class="center-text" id="getstarted"></button></a> -->
+
+    <div id="main">
+        <p id="mainHeading" class="center-text white-text font-large">Explore quizzes</p>
+        <div id="quizzesDisplay"></div>
+    </div>
+
+</body>
+
+</html>

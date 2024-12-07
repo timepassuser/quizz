@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play | quizz.</title>
+    <script src="quizFetch.js"></script>
+    <script src="play.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .black-background {
+            background-color: black;
+            color: white;
+        }
+
+        .white-background {
+            background-color: white;
+            color: black;
+        }
+
+        #quizContainer {
+            display: flex;
+            flex-direction: column;
+            /* row-gap: 2vh; */
+        }
+
+        .questionCard {
+            /* border: 1px solid black; */
+            /* margin: auto; */
+            padding-top: 6vh;
+            padding-bottom: 6vh;
+            padding-left: 3vw;
+            padding-right: 3vw;
+            /* display: flex;
+            flex-direction: column; */
+        }
+
+        .questionElement {
+            font-size: 2em;
+            display: inline-block;
+            margin-bottom: 3vh;
+            padding: none;
+        }
+
+        .optionContainer {
+            margin: 3vh;
+        }
+
+        .optionContainer:hover {
+            transform: scale(1.01);
+            border: 1px solid red;
+            /* background-color: gray; */
+        }
+
+        .optionLabel {
+            font-size: 1.25em;
+            display: inline-block;
+            margin: 2vh;
+            margin-left: 3vh;
+            /* margin-left: 1vw; */
+            /* padding: 10vh; */
+            /* border: 1px solid red; */
+        }
+
+        .optionRadio {
+            appearance: none;
+            /* border: none; */
+            height: 2vh;
+            width: 2vh;
+        }
+
+        .optionRadio:checked {
+            /* border: 2px solid red; */
+            background-color: red;
+        }
+
+        #submitButton {
+            border: none;
+            display: block;
+            margin: auto;
+            padding: 2vh;
+            font-size: 5vh;
+            /* height: 5vh; */
+            /* width: 5vw; */
+        }
+
+        #submitButton:hover {
+            transform: scale(1.125);
+        }
+
+        #lastCard {
+            font-size: 2em;
+            font-weight: 550;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="logoContainer">
+                <a href="/">
+                    <img id="logo" src="logo_blackBackground.png" alt="quizz." srcset="">
+                </a>
+            </div>
+            <div id="navbarLinks">
+                <a href="/">Home</a>
+                <a href="">About&NonBreakingSpace;Us</a>
+            </div>
+        </nav>
+        <h1 id="playing" class="center-text">Playing</h1>
+    </header>
+    <form id="form" action="" method="post">
+        <div id="quizContainer"></div>
+    </form>
+</body>
+
+</html>
