@@ -78,7 +78,10 @@ window.onload = async function() {
         quizCard.appendChild(quizNameElement);
 
         let quizLengthElement = document.createElement("p");
-        quizLengthElement.innerText = "No of questions: " + quiz.noOfQuestions;
+        quizLengthElement.innerText = "No. of questions: " + quiz.noOfQuestions;
+        if (quiz.timeLimit) {
+            quizLengthElement.innerText += "\nTime Limit: " + quiz.timeLimit + " minutes";
+        }
         quizLengthElement.setAttribute("class", "quizLength");
         quizCard.appendChild(quizLengthElement);
 
@@ -91,7 +94,6 @@ window.onload = async function() {
         quizPlayButton.innerText = "Play Quiz";
         quizPlayButton.setAttribute("class", "quizPlayButton");
         quizPlayButton.addEventListener("click", (event) => {
-            console.log("test");
             let quizName = event.currentTarget.parentElement.querySelector("h3.quizName").innerText;
             window.location.href = "play.html?name=" + quizName;
         })

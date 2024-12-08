@@ -94,6 +94,17 @@
             font-weight: 550;
             text-align: center;
         }
+
+        /* #stickContainer {} */
+
+        #timeLeftElement {
+            position: sticky;
+            top: 0;
+            text-align: center;
+            color: red;
+            font-size: 4vh;
+            font-weight: 550;
+        }
     </style>
 </head>
 
@@ -106,12 +117,15 @@
                 </a>
             </div>
             <div id="navbarLinks">
-                <a href="">Home</a>
+                <a href="index.html">Home</a>
                 <a href="">About&NonBreakingSpace;Us</a>
             </div>
         </nav>
+        <!-- <div id="stickContainer"> -->
         <h1 id="playing" class="center-text">Playing</h1>
+        <!-- </div> -->
     </header>
+    <span id="timeLeftElement"></span>
     <form id="form" action="" method="post">
         <div id="quizContainer"></div>
     </form>

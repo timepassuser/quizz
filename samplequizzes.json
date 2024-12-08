@@ -4,6 +4,7 @@
             "name": "Sequence and Series",
             "description": "Easy quiz on sequences and series",
             "noOfQuestions": 5,
+            "timeLimit": 0.1,
             "defaultCorrectMarking": 1,
             "defaultIncorrectMarking": 0,
             "questions": [{
@@ -38,6 +39,7 @@
             "name": "Basic Boolean Algebra",
             "description": "Test your knowledge on basic Boolean algebra concepts",
             "noOfQuestions": 5,
+            "timeLimit": 2,
             "defaultCorrectMarking": 1,
             "defaultIncorrectMarking": 0,
             "questions": [{
@@ -72,6 +74,7 @@
             "name": "Periodic Table",
             "description": "Challenge your knowledge of the periodic table!",
             "noOfQuestions": 5,
+            "timeLimit": 2,
             "defaultCorrectMarking": 1,
             "defaultIncorrectMarking": 0,
             "questions": [{
@@ -106,6 +109,7 @@
             "name": "Networking Protocols",
             "description": "Learn about networking protocols with this quiz",
             "noOfQuestions": 5,
+            "timeLimit": 2,
             "defaultCorrectMarking": 1,
             "defaultIncorrectMarking": 0,
             "questions": [{
@@ -140,6 +144,7 @@
             "name": "Dragon Ball Z",
             "description": "Test your knowledge of the Dragon Ball Z universe!",
             "noOfQuestions": 5,
+            "timeLimit": 2,
             "defaultCorrectMarking": 1,
             "defaultIncorrectMarking": 0,
             "questions": [{
@@ -174,6 +179,7 @@
             "name": "Physics",
             "description": "Challenge yourself with fundamental physics concepts.",
             "noOfQuestions": 5,
+            "timeLimit": 2,
             "defaultCorrectMarking": 1,
             "defaultIncorrectMarking": 0,
             "questions": [{

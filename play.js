@@ -14,6 +14,8 @@ window.onload = async function() {
 }
 
 var quizObject;
+var timeLeft;
+var interval;
 async function play(quizName) {
     var quizzesObject = await getSampleQuizzes();
     quizzesObject.quizzes.forEach(function(quizParam) {
@@ -94,6 +96,22 @@ async function play(quizName) {
             document.getElementById("form").addEventListener("submit", evaluateScore);
             questionCard.appendChild(submitButton);
             quizContainer.appendChild(questionCard);
+
+            if (quizObject.timeLimit) {
+                timeLeft = quizObject.timeLimit * 60;
+                timeLeftElement = document.getElementById("timeLeftElement");
+                timeLeftElement.style.display = "block";
+                timeLeftElement.innerText = "Time Left: " + timeLeft + " seconds";
+                interval = setInterval(() => {
+                    timeLeft--;
+                    timeLeftElement.innerText = "Time Left: " + timeLeft + " seconds";
+                    if (timeLeft == 0) {
+                        submitButton.scrollIntoView();
+                        document.getElementById("form").requestSubmit();
+                        clearInterval(interval);
+                    }
+                }, 1000);
+            }
             return;
         }
     });
@@ -102,6 +120,9 @@ async function play(quizName) {
 
 function evaluateScore(submitEvent) {
     submitEvent.preventDefault();
+    if (quizObject.timeLimit && timeLeft) {
+        clearInterval(interval);
+    }
     var score = 0;
     correctMarking = quizObject.defaultCorrectMarking;
     incorrectMarking = quizObject.defaultIncorrectMarking;
