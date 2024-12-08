@@ -1,5 +1,5 @@
 async function getSampleQuizzes(errorElement) {
-    const sampleQuizUrl = "/quizz/samplequizzes.json";
+    const sampleQuizUrl = "samplequizzes.json";
     try {
         let response = await fetch(sampleQuizUrl);
         if (!response.ok) {

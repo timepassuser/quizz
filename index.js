@@ -93,7 +93,7 @@ window.onload = async function() {
         quizPlayButton.addEventListener("click", (event) => {
             console.log("test");
             let quizName = event.currentTarget.parentElement.querySelector("h3.quizName").innerText;
-            window.location.href = "/quizz/play.html?name=" + quizName;
+            window.location.href = "play.html?name=" + quizName;
         })
         quizCard.appendChild(quizPlayButton);
 

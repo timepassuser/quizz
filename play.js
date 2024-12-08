@@ -52,7 +52,23 @@ async function play(quizName) {
                     let textElement = document.createElement("span");
                     textElement.setAttribute("class", "optionLabel");
                     // textElement.setAttribute("for", "question" + i + "option" + j);
-                    textElement.innerText = option;
+                    if (option.includes("<sup>") && option.includes("</sup")) {
+                        option = option.split("<sup>");
+                        option.forEach(function(string) {
+                            if (string.includes("</sup>")) {
+                                string = string.split("</sup>");
+                                tempString = "<sup>"
+                                tempString += string[0];
+                                tempString += "</sup>";
+                                tempString += string[1];
+                                textElement.innerHTML += tempString;
+                            } else {
+                                textElement.innerHTML += string;
+                            }
+                        })
+                    } else {
+                        textElement.innerText = option;
+                    }
                     optionContainer.appendChild(textElement);
 
                     optionContainer.addEventListener("click", (event) => {
