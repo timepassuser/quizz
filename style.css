@@ -165,9 +165,10 @@ nav {
     color: black;
     background-color: white;
     border: none;
-    height: 5vh;
-    width: 15vw;
+    /* height: 5vh; */
+    /* width: 15vw; */
     font-size: 3vh;
+    padding: 1vh;
 }
 
 .quizPlayButton:hover {
